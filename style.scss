@@ -146,6 +146,40 @@ header{
      }
 
 }
+.section4{
+    @include container();
+    nav{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        width: 700px;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        border-radius: 10px;
+        img{
+            width: 100px;
+        }
+    }
+}
+.section5{
+      @include container();
+      margin-top: 30px;
+      nav{
+        display: flex;
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 230px;
+        padding: 20px;
+        align-items: center;
+        gap: 20px;
+        line-height: 1.4;
+      }
+
+}
 @media (max-width: 500px){
     header{
         nav, div{
@@ -198,5 +232,12 @@ header{
     width: 100%;
     div{
         margin: auto;
+    }
+}
+.section5{
+    flex-direction: column;
+    nav{
+        margin: auto;
+        margin-top: 20px;
     }
 }
