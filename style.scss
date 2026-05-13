@@ -107,8 +107,43 @@ header{
 
         }
     }
-
-
+}
+.section2{
+     max-width: 1200px;
+     margin: auto;
+     text-align: center;
+     margin-top: 150px;
+     h1{
+        font-size: 40px;
+     }
+     p{
+        font-size: 14px;
+        color: #737373;
+        margin-top: 10px
+     }
+}
+.section3{
+     @include container();
+     display: flex;
+     flex-wrap: wrap;
+     gap: 40px;
+     margin-top: 50px;
+     div{
+        display: flex;
+        align-items: center;
+        border: 1px solid white;
+        padding: 30px 20px;
+        gap: 20px ;
+        width: 328px;
+        
+        img{
+            margin-top: -25px;
+        }
+        nav{
+            line-height: 1.4;
+            
+        }
+     }
 
 }
 @media (max-width: 500px){
@@ -157,5 +192,11 @@ header{
             font-size: 30px;
             text-decoration: none;
         }        
+    }
+}
+.section3{
+    width: 100%;
+    div{
+        margin: auto;
     }
 }

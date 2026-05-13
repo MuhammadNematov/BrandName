@@ -110,6 +110,47 @@ header .icons {
   left: -50px;
 }
 
+.section2 {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  margin-top: 150px;
+}
+.section2 h1 {
+  font-size: 40px;
+}
+.section2 p {
+  font-size: 14px;
+  color: #737373;
+  margin-top: 10px;
+}
+
+.section3 {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 1200px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 50px;
+}
+.section3 div {
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  padding: 30px 20px;
+  gap: 20px;
+  width: 328px;
+}
+.section3 div img {
+  margin-top: -25px;
+}
+.section3 div nav {
+  line-height: 1.4;
+}
+
 @media (max-width: 500px) {
   header nav, header div {
     display: none;
@@ -150,4 +191,10 @@ header .icons {
     font-size: 30px;
     text-decoration: none;
   }
+}
+.section3 {
+  width: 100%;
+}
+.section3 div {
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */
