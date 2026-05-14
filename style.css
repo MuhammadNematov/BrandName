@@ -245,6 +245,122 @@ header .icons {
   color: #23A6F0;
 }
 
+.section7 {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 1200px;
+  padding: 20px;
+  justify-content: space-evenly;
+  gap: 240px;
+  margin-top: 250px;
+}
+.section7 .q1 {
+  width: 400px;
+  line-height: 1.5;
+}
+
+.section8 {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 1200px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.section8 h1 {
+  color: rgba(0, 0, 0, 0.734);
+  margin-left: 50px;
+}
+.section8 label {
+  color: #252B42;
+}
+.section8 input {
+  width: 400px;
+  border: 1px solid rgba(128, 128, 128, 0.278);
+  padding: 15px;
+  border-radius: 5px;
+  background-color: rgba(230, 230, 230, 0.4156862745);
+}
+.section8 .c1 {
+  display: flex;
+  background-color: #F9F9F9;
+  width: 800px;
+  line-height: 2.4;
+  position: relative;
+  top: 300px;
+}
+.section8 .z1 {
+  margin-left: 60px;
+  margin-top: 50px;
+}
+.section8 button {
+  border-radius: 5px;
+  width: 400px;
+  border: none;
+  padding: 15px;
+  color: white;
+  background-color: #23A6F0;
+  margin-top: 30px;
+}
+
+.section9 {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 1200px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.section9 h1 {
+  color: rgba(0, 0, 0, 0.734);
+  margin-left: 50px;
+}
+.section9 label {
+  color: #252B42;
+}
+.section9 input {
+  width: 400px;
+  border: 1px solid rgba(128, 128, 128, 0.278);
+  padding: 15px;
+  border-radius: 5px;
+  background-color: rgba(230, 230, 230, 0.4156862745);
+}
+.section9 .c1 {
+  display: flex;
+  background-color: #F9F9F9;
+  width: 800px;
+  line-height: 2.4;
+  position: relative;
+  top: 300px;
+}
+.section9 .z1 {
+  margin-left: 60px;
+  margin-top: 50px;
+}
+.section9 button {
+  border-radius: 5px;
+  width: 400px;
+  border: none;
+  padding: 15px;
+  color: white;
+  background-color: #23A6F0;
+  margin-top: 30px;
+}
+
+.k1 {
+  background-color: white;
+  height: 400px;
+}
+
+.section9 {
+  display: none;
+}
+
 @media (max-width: 510px) {
   header nav, header div {
     display: none;
@@ -266,7 +382,7 @@ header .icons {
   .section1 aside:last-child img:last-child {
     width: 200%;
     margin: auto;
-    margin-left: 495px;
+    margin-left: 485px;
     margin-top: 100px;
   }
   .menu_mobile {
@@ -285,27 +401,85 @@ header .icons {
     font-size: 30px;
     text-decoration: none;
   }
-}
-.section3 {
-  width: 100%;
-}
-.section3 div {
-  margin: auto;
-}
-
-.section5 {
-  flex-direction: column;
-}
-.section5 div {
-  display: flex;
-  flex-wrap: wrap;
-}
-.section5 nav {
-  margin: auto;
-  margin-top: 20px;
-}
-
-.section6 {
-  display: flex;
-  flex-wrap: wrap;
+  .section3 {
+    width: 100%;
+  }
+  .section3 div {
+    margin: auto;
+  }
+  .section5 {
+    flex-direction: column;
+  }
+  .section5 div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section5 nav {
+    margin: auto;
+    margin-top: 20px;
+  }
+  .section6 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section7 .q1 {
+    width: 90%;
+    margin: auto;
+  }
+  .section7 {
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    margin-left: 0px;
+    flex-direction: column;
+  }
+  .section7 img {
+    width: 70%;
+    margin-top: -100px;
+    margin: auto;
+  }
+  .section8 {
+    flex-direction: column;
+    width: 10%;
+  }
+  .section8 .c1 {
+    width: 90%;
+    background-color: #23A6F0;
+    text-align: center;
+  }
+  .section8 img {
+    width: 50px;
+  }
+  .section8 .z1 {
+    display: none;
+  }
+  .k1 {
+    display: none;
+  }
+  .section9 {
+    width: 100%;
+    margin: 0;
+    display: block;
+  }
+  .section9 .c1 {
+    width: 100%;
+    margin: 0;
+    border-radius: 10px;
+    margin-top: -200px;
+  }
+  .section9 .z1 {
+    width: 9%;
+    margin: 0;
+    padding: 10px;
+  }
+  .section9 .z1 input {
+    width: 330px;
+  }
+  .section9 .z1 button {
+    width: 330px;
+  }
+  .section9 img {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
