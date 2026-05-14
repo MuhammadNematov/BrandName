@@ -333,6 +333,13 @@ header{
 .section9{
     display: none;
 }
+.header{
+    @include container();
+    div{
+        width: 200px;
+        line-height: 1.5;
+    }
+}
 @media (max-width: 510px){
     header{
         nav, div{
@@ -472,6 +479,15 @@ header{
     }
     img{
         display: none;
+    }
+}
+.header{
+    
+    margin-top: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    div{
+        width: 150px;
     }
 }
 }

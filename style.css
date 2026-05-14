@@ -361,6 +361,18 @@ header .icons {
   display: none;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+.header div {
+  width: 200px;
+  line-height: 1.5;
+}
+
 @media (max-width: 510px) {
   header nav, header div {
     display: none;
@@ -481,5 +493,13 @@ header .icons {
   }
   .section9 img {
     display: none;
+  }
+  .header {
+    margin-top: 300px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header div {
+    width: 150px;
   }
 }/*# sourceMappingURL=style.css.map */
